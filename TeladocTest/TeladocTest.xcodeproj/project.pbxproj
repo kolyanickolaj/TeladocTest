@@ -13,6 +13,19 @@
 		ED1879862ACDDE550091B543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED1879842ACDDE550091B543 /* LaunchScreen.storyboard */; };
 		ED18798E2ACDDEF00091B543 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18798D2ACDDEF00091B543 /* StartViewController.swift */; };
 		ED1879902ACDDF100091B543 /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED18798F2ACDDF100091B543 /* StartViewController.xib */; };
+		ED1879962ACDE5630091B543 /* Romeo-and-Juliet.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED1879952ACDE5630091B543 /* Romeo-and-Juliet.txt */; };
+		ED18799D2ACDE6A40091B543 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18799C2ACDE6A40091B543 /* UIViewController+Ext.swift */; };
+		ED18799F2ACDE6F90091B543 /* WordTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18799E2ACDE6F90091B543 /* WordTableViewController.swift */; };
+		ED1879A12ACDE7180091B543 /* WordTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1879A02ACDE7180091B543 /* WordTableViewController.xib */; };
+		ED1879A32ACDE9BA0091B543 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879A22ACDE9BA0091B543 /* UITableView+Ext.swift */; };
+		ED1879A72ACDEA280091B543 /* WordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879A62ACDEA280091B543 /* WordTableViewCell.swift */; };
+		ED1879A92ACDEA3F0091B543 /* WordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1879A82ACDEA3F0091B543 /* WordTableViewCell.xib */; };
+		ED1879AC2ACDEAF50091B543 /* AlbumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1879AB2ACDEAF50091B543 /* AlbumTableViewCell.xib */; };
+		ED1879AE2ACDEAFD0091B543 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879AD2ACDEAFD0091B543 /* AlbumTableViewCell.swift */; };
+		ED1879B12ACDEC530091B543 /* AlbumsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879B02ACDEC530091B543 /* AlbumsTableViewController.swift */; };
+		ED1879B32ACDEC690091B543 /* AlbumsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1879B22ACDEC690091B543 /* AlbumsTableViewController.xib */; };
+		ED1879B62ACDED210091B543 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879B52ACDED210091B543 /* AlbumModel.swift */; };
+		ED1879B82ACDED2E0091B543 /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879B72ACDED2E0091B543 /* WordModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		ED1879872ACDDE550091B543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED18798D2ACDDEF00091B543 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		ED18798F2ACDDF100091B543 /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		ED1879952ACDE5630091B543 /* Romeo-and-Juliet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Romeo-and-Juliet.txt"; sourceTree = "<group>"; };
+		ED18799C2ACDE6A40091B543 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		ED18799E2ACDE6F90091B543 /* WordTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTableViewController.swift; sourceTree = "<group>"; };
+		ED1879A02ACDE7180091B543 /* WordTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WordTableViewController.xib; sourceTree = "<group>"; };
+		ED1879A22ACDE9BA0091B543 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		ED1879A62ACDEA280091B543 /* WordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTableViewCell.swift; sourceTree = "<group>"; };
+		ED1879A82ACDEA3F0091B543 /* WordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WordTableViewCell.xib; sourceTree = "<group>"; };
+		ED1879AB2ACDEAF50091B543 /* AlbumTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumTableViewCell.xib; sourceTree = "<group>"; };
+		ED1879AD2ACDEAFD0091B543 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
+		ED1879B02ACDEC530091B543 /* AlbumsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewController.swift; sourceTree = "<group>"; };
+		ED1879B22ACDEC690091B543 /* AlbumsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumsTableViewController.xib; sourceTree = "<group>"; };
+		ED1879B52ACDED210091B543 /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		ED1879B72ACDED2E0091B543 /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,8 +66,6 @@
 		ED18796D2ACDDE530091B543 = {
 			isa = PBXGroup;
 			children = (
-				ED18798D2ACDDEF00091B543 /* StartViewController.swift */,
-				ED18798F2ACDDF100091B543 /* StartViewController.xib */,
 				ED1879782ACDDE530091B543 /* TeladocTest */,
 				ED1879772ACDDE530091B543 /* Products */,
 			);
@@ -58,13 +82,132 @@
 		ED1879782ACDDE530091B543 /* TeladocTest */ = {
 			isa = PBXGroup;
 			children = (
-				ED1879792ACDDE530091B543 /* AppDelegate.swift */,
-				ED18797B2ACDDE530091B543 /* SceneDelegate.swift */,
-				ED1879822ACDDE550091B543 /* Assets.xcassets */,
-				ED1879842ACDDE550091B543 /* LaunchScreen.storyboard */,
-				ED1879872ACDDE550091B543 /* Info.plist */,
+				ED1879922ACDE4C80091B543 /* Sources */,
+				ED1879912ACDE4BF0091B543 /* Resources */,
 			);
 			path = TeladocTest;
+			sourceTree = "<group>";
+		};
+		ED1879912ACDE4BF0091B543 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED1879952ACDE5630091B543 /* Romeo-and-Juliet.txt */,
+				ED1879822ACDDE550091B543 /* Assets.xcassets */,
+				ED1879872ACDDE550091B543 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED1879922ACDE4C80091B543 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ED1879B42ACDED110091B543 /* Models */,
+				ED1879A42ACDEA030091B543 /* Views */,
+				ED18799A2ACDE61B0091B543 /* Extensions */,
+				ED1879992ACDE60B0091B543 /* Services */,
+				ED1879932ACDE5090091B543 /* Modules */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		ED1879932ACDE5090091B543 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ED1879AF2ACDEC390091B543 /* AlbumsTable */,
+				ED1879982ACDE5F60091B543 /* WordTable */,
+				ED1879972ACDE5D80091B543 /* Start */,
+				ED1879942ACDE5130091B543 /* App */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		ED1879942ACDE5130091B543 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ED1879792ACDDE530091B543 /* AppDelegate.swift */,
+				ED18797B2ACDDE530091B543 /* SceneDelegate.swift */,
+				ED1879842ACDDE550091B543 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ED1879972ACDE5D80091B543 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				ED18798D2ACDDEF00091B543 /* StartViewController.swift */,
+				ED18798F2ACDDF100091B543 /* StartViewController.xib */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		ED1879982ACDE5F60091B543 /* WordTable */ = {
+			isa = PBXGroup;
+			children = (
+				ED18799E2ACDE6F90091B543 /* WordTableViewController.swift */,
+				ED1879A02ACDE7180091B543 /* WordTableViewController.xib */,
+			);
+			path = WordTable;
+			sourceTree = "<group>";
+		};
+		ED1879992ACDE60B0091B543 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ED18799A2ACDE61B0091B543 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED18799C2ACDE6A40091B543 /* UIViewController+Ext.swift */,
+				ED1879A22ACDE9BA0091B543 /* UITableView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ED1879A42ACDEA030091B543 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED1879AA2ACDEAE50091B543 /* AlbumTableViewCell */,
+				ED1879A52ACDEA150091B543 /* WordTableViewCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED1879A52ACDEA150091B543 /* WordTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED1879A62ACDEA280091B543 /* WordTableViewCell.swift */,
+				ED1879A82ACDEA3F0091B543 /* WordTableViewCell.xib */,
+			);
+			path = WordTableViewCell;
+			sourceTree = "<group>";
+		};
+		ED1879AA2ACDEAE50091B543 /* AlbumTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED1879AD2ACDEAFD0091B543 /* AlbumTableViewCell.swift */,
+				ED1879AB2ACDEAF50091B543 /* AlbumTableViewCell.xib */,
+			);
+			path = AlbumTableViewCell;
+			sourceTree = "<group>";
+		};
+		ED1879AF2ACDEC390091B543 /* AlbumsTable */ = {
+			isa = PBXGroup;
+			children = (
+				ED1879B02ACDEC530091B543 /* AlbumsTableViewController.swift */,
+				ED1879B22ACDEC690091B543 /* AlbumsTableViewController.xib */,
+			);
+			path = AlbumsTable;
+			sourceTree = "<group>";
+		};
+		ED1879B42ACDED110091B543 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED1879B52ACDED210091B543 /* AlbumModel.swift */,
+				ED1879B72ACDED2E0091B543 /* WordModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +269,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED1879862ACDDE550091B543 /* LaunchScreen.storyboard in Resources */,
+				ED1879B32ACDEC690091B543 /* AlbumsTableViewController.xib in Resources */,
 				ED1879832ACDDE550091B543 /* Assets.xcassets in Resources */,
+				ED1879962ACDE5630091B543 /* Romeo-and-Juliet.txt in Resources */,
+				ED1879A92ACDEA3F0091B543 /* WordTableViewCell.xib in Resources */,
+				ED1879AC2ACDEAF50091B543 /* AlbumTableViewCell.xib in Resources */,
+				ED1879A12ACDE7180091B543 /* WordTableViewController.xib in Resources */,
 				ED1879902ACDDF100091B543 /* StartViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1879B82ACDED2E0091B543 /* WordModel.swift in Sources */,
 				ED18797A2ACDDE530091B543 /* AppDelegate.swift in Sources */,
+				ED1879B62ACDED210091B543 /* AlbumModel.swift in Sources */,
 				ED18797C2ACDDE530091B543 /* SceneDelegate.swift in Sources */,
+				ED18799D2ACDE6A40091B543 /* UIViewController+Ext.swift in Sources */,
+				ED1879A32ACDE9BA0091B543 /* UITableView+Ext.swift in Sources */,
+				ED1879B12ACDEC530091B543 /* AlbumsTableViewController.swift in Sources */,
+				ED1879A72ACDEA280091B543 /* WordTableViewCell.swift in Sources */,
+				ED18799F2ACDE6F90091B543 /* WordTableViewController.swift in Sources */,
 				ED18798E2ACDDEF00091B543 /* StartViewController.swift in Sources */,
+				ED1879AE2ACDEAFD0091B543 /* AlbumTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
