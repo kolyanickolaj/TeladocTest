@@ -26,6 +26,9 @@
 		ED1879B32ACDEC690091B543 /* AlbumsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED1879B22ACDEC690091B543 /* AlbumsTableViewController.xib */; };
 		ED1879B62ACDED210091B543 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879B52ACDED210091B543 /* AlbumModel.swift */; };
 		ED1879B82ACDED2E0091B543 /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879B72ACDED2E0091B543 /* WordModel.swift */; };
+		ED1879BA2ACDFA490091B543 /* WordsCountingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879B92ACDFA490091B543 /* WordsCountingService.swift */; };
+		ED1879BC2ACDFA750091B543 /* TextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879BB2ACDFA750091B543 /* TextParser.swift */; };
+		EDC95F8F2ACFB19A009BAB28 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC95F8E2ACFB19A009BAB28 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		ED1879B22ACDEC690091B543 /* AlbumsTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumsTableViewController.xib; sourceTree = "<group>"; };
 		ED1879B52ACDED210091B543 /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
 		ED1879B72ACDED2E0091B543 /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
+		ED1879B92ACDFA490091B543 /* WordsCountingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsCountingService.swift; sourceTree = "<group>"; };
+		ED1879BB2ACDFA750091B543 /* TextParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextParser.swift; sourceTree = "<group>"; };
+		EDC95F8E2ACFB19A009BAB28 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		ED1879922ACDE4C80091B543 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				EDC95F8D2ACFB189009BAB28 /* Constants */,
 				ED1879B42ACDED110091B543 /* Models */,
 				ED1879A42ACDEA030091B543 /* Views */,
 				ED18799A2ACDE61B0091B543 /* Extensions */,
@@ -152,6 +159,8 @@
 		ED1879992ACDE60B0091B543 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				ED1879B92ACDFA490091B543 /* WordsCountingService.swift */,
+				ED1879BB2ACDFA750091B543 /* TextParser.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -208,6 +217,14 @@
 				ED1879B72ACDED2E0091B543 /* WordModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		EDC95F8D2ACFB189009BAB28 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EDC95F8E2ACFB19A009BAB28 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,15 +303,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1879BA2ACDFA490091B543 /* WordsCountingService.swift in Sources */,
 				ED1879B82ACDED2E0091B543 /* WordModel.swift in Sources */,
 				ED18797A2ACDDE530091B543 /* AppDelegate.swift in Sources */,
 				ED1879B62ACDED210091B543 /* AlbumModel.swift in Sources */,
 				ED18797C2ACDDE530091B543 /* SceneDelegate.swift in Sources */,
 				ED18799D2ACDE6A40091B543 /* UIViewController+Ext.swift in Sources */,
+				ED1879BC2ACDFA750091B543 /* TextParser.swift in Sources */,
 				ED1879A32ACDE9BA0091B543 /* UITableView+Ext.swift in Sources */,
 				ED1879B12ACDEC530091B543 /* AlbumsTableViewController.swift in Sources */,
 				ED1879A72ACDEA280091B543 /* WordTableViewCell.swift in Sources */,
 				ED18799F2ACDE6F90091B543 /* WordTableViewController.swift in Sources */,
+				EDC95F8F2ACFB19A009BAB28 /* Constants.swift in Sources */,
 				ED18798E2ACDDEF00091B543 /* StartViewController.swift in Sources */,
 				ED1879AE2ACDEAFD0091B543 /* AlbumTableViewCell.swift in Sources */,
 			);
@@ -437,7 +457,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LFCFCWJ9FC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TeladocTest/Info.plist;
+				INFOPLIST_FILE = TeladocTest/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -464,7 +484,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LFCFCWJ9FC;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TeladocTest/Info.plist;
+				INFOPLIST_FILE = TeladocTest/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

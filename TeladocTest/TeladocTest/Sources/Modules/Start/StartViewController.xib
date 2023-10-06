@@ -25,11 +25,17 @@
                             <rect key="frame" x="0.0" y="0.0" width="106.66666666666667" height="34.333333333333336"/>
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="plain" title="Question 1"/>
+                            <connections>
+                                <action selector="questionOneTapped:" destination="-1" eventType="touchUpInside" id="7fD-sm-68w"/>
+                            </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="byL-AM-fSX">
                             <rect key="frame" x="0.0" y="84.333333333333371" width="106.66666666666667" height="34.333333333333343"/>
                             <state key="normal" title="Button"/>
                             <buttonConfiguration key="configuration" style="plain" title="Question 2"/>
+                            <connections>
+                                <action selector="questionTwoTapped:" destination="-1" eventType="touchUpInside" id="0wK-qV-Lw6"/>
+                            </connections>
                         </button>
                     </subviews>
                 </stackView>

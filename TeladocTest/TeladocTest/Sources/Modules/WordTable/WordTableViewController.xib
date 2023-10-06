@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WordTableViewController">
             <connections>
+                <outlet property="activityIndicator" destination="vUn-dv-Uy4" id="IMG-0F-aFV"/>
                 <outlet property="tableView" destination="Vpr-Dc-8fP" id="ijQ-uX-Y65"/>
                 <outlet property="view" destination="iN0-l3-epB" id="vBF-br-frd"/>
             </connections>
@@ -27,12 +28,17 @@
                         <outlet property="delegate" destination="-1" id="L8z-95-Rm6"/>
                     </connections>
                 </tableView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="vUn-dv-Uy4">
+                    <rect key="frame" x="178" y="420" width="37" height="37"/>
+                </activityIndicatorView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="vUn-dv-Uy4" firstAttribute="centerX" secondItem="Vpr-Dc-8fP" secondAttribute="centerX" id="FJa-h8-jMU"/>
                 <constraint firstItem="Vpr-Dc-8fP" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="KhI-JC-Doq"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Vpr-Dc-8fP" secondAttribute="bottom" id="Mmb-Rf-kRj"/>
+                <constraint firstItem="vUn-dv-Uy4" firstAttribute="centerY" secondItem="Vpr-Dc-8fP" secondAttribute="centerY" id="SBg-m8-UA1"/>
                 <constraint firstItem="Vpr-Dc-8fP" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="TVz-pD-NzN"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Vpr-Dc-8fP" secondAttribute="trailing" id="vOw-2L-DKf"/>
             </constraints>
