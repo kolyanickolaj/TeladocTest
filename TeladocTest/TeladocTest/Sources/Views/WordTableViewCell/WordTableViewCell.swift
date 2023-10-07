@@ -12,7 +12,6 @@ protocol WordTableViewCellProtocol {
 }
 
 final class WordTableViewCell: UITableViewCell, NibLoadable {
-    
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var counterLabel: UILabel!
 }

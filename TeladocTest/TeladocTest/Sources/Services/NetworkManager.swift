@@ -27,6 +27,9 @@ final class NetworkManager: NetworkManagerProtocol {
         var request: URLRequest = URLRequest(url: iTunesUrl)
         request.httpMethod = "GET"
         
+        // Probably it may be needed for some reasons
+//        request.cachePolicy = .reloadIgnoringLocalAndRemoteCacheData
+        
         URLSession.shared.dataTask(with: request) { data, response, error in
             guard let httpResponse = response as? HTTPURLResponse else {
                 return completion(nil)
