@@ -21,10 +21,12 @@ final class WordsCountingService: WordsCountingServiceProtocol {
         
         guard let words = TextParser().getAllWords(fromFile: filePath) else { return nil }
         
-        let uniqueWords: Set<String> = Set(words)
-        let models = uniqueWords.map({ word in
-            let wordCount = words.filter({ $0 == word }).count
-            return WordModel(word: word, count: wordCount)
+        let countedSetOfWords = NSCountedSet(array: words)
+        let models: [WordModel] = countedSetOfWords.compactMap({ word in
+            if let word = word as? String {
+                return WordModel(word: word, count: countedSetOfWords.count(for: word))
+            }
+            return nil
         })
         
         saveValue(models, fileName: fileName)
