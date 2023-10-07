@@ -7,7 +7,11 @@
 
 import Foundation
 
-final class TextParser {
+protocol TextParserProtocol {
+    func getAllWords(fromFile path: String) -> [String]?
+}
+
+final class TextParser: TextParserProtocol {
     func getAllWords(fromFile path: String) -> [String]? {
         var arrayOfWords: [String]?
         let encodings: [String.Encoding] = [.utf8, .macOSRoman, .utf16]
@@ -20,23 +24,5 @@ final class TextParser {
         
         return arrayOfWords
     }
-    
-    func getAllWords(from string: String) -> [String] {
-        string.words
-    }
 }
 
-extension String {
-    var words: [String] {   
-        var array: [String] = []
-        enumerateSubstrings(in: startIndex ..< endIndex, options: .byWords) { substring, _, _, _ in
-            if let substring,
-                !substring.isEmpty
-            {
-                array.append(substring.capitalized)
-            }
-        }
-        return array
-    }
-    
-}

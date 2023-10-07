@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlbumsTableViewController" customModule="TeladocTest" customModuleProvider="target">
             <connections>
+                <outlet property="activityIndicator" destination="x7G-TJ-F1r" id="wp7-a0-vsz"/>
                 <outlet property="tableView" destination="Oqn-4a-iLc" id="eXj-6I-bNF"/>
                 <outlet property="view" destination="iN0-l3-epB" id="E8F-Eg-6q0"/>
             </connections>
@@ -27,13 +28,18 @@
                         <outlet property="delegate" destination="-1" id="hL5-20-Okq"/>
                     </connections>
                 </tableView>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="x7G-TJ-F1r">
+                    <rect key="frame" x="178" y="420" width="37" height="37"/>
+                </activityIndicatorView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
+                <constraint firstItem="x7G-TJ-F1r" firstAttribute="centerX" secondItem="Oqn-4a-iLc" secondAttribute="centerX" id="CTM-Qb-wE4"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Oqn-4a-iLc" secondAttribute="bottom" id="CvM-FC-fAG"/>
                 <constraint firstItem="Oqn-4a-iLc" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="hiA-dQ-wcB"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Oqn-4a-iLc" secondAttribute="trailing" id="t5J-nC-TiB"/>
+                <constraint firstItem="x7G-TJ-F1r" firstAttribute="centerY" secondItem="Oqn-4a-iLc" secondAttribute="centerY" id="ufJ-8m-9Xf"/>
                 <constraint firstItem="Oqn-4a-iLc" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="wAe-jK-bkp"/>
             </constraints>
             <point key="canvasLocation" x="28" y="42"/>

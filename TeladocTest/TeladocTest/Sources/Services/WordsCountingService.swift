@@ -7,7 +7,11 @@
 
 import Foundation
 
-final class WordsCountingService {
+protocol WordsCountingServiceProtocol {
+    func getCountedWords(from filePath: String) -> [WordModel]?
+}
+
+final class WordsCountingService: WordsCountingServiceProtocol {
     func getCountedWords(from filePath: String) -> [WordModel]? {
         guard let fileName = filePath.components(separatedBy: "/").last else { return nil }
         
@@ -27,7 +31,7 @@ final class WordsCountingService {
         return models
     }
     
-    func getSavedValue(fileName: String) -> [WordModel]? {
+    private func getSavedValue(fileName: String) -> [WordModel]? {
         guard let dict = UserDefaults.standard.dictionary(forKey: fileName) else { return nil }
         
         var models: [WordModel] = []
@@ -40,7 +44,7 @@ final class WordsCountingService {
         return models
     }
     
-    func saveValue(_ value: [WordModel], fileName: String) {
+    private func saveValue(_ value: [WordModel], fileName: String) {
         var dict: [String:Int] = [:]
         value.forEach { model in
             dict[model.word] = model.count

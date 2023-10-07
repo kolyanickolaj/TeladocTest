@@ -9,7 +9,7 @@ import UIKit
 
 final class WordTableViewController: UIViewController {
     
-    var models: [WordModel] = []
+    private var models: [WordModel] = []
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
