@@ -26,6 +26,7 @@ final class NetworkManager: NetworkManagerProtocol {
     private func getAlbums(from iTunesUrl: URL, completion: @escaping ([AlbumModel]?) -> Void) {
         var request: URLRequest = URLRequest(url: iTunesUrl)
         request.httpMethod = "GET"
+        request.timeoutInterval = 10
         
         // Probably it may be needed for some reasons
 //        request.cachePolicy = .reloadIgnoringLocalAndRemoteCacheData
