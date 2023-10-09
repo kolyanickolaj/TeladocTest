@@ -28,6 +28,7 @@
 		ED1879B82ACDED2E0091B543 /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879B72ACDED2E0091B543 /* WordModel.swift */; };
 		ED1879BA2ACDFA490091B543 /* WordsCountingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879B92ACDFA490091B543 /* WordsCountingService.swift */; };
 		ED1879BC2ACDFA750091B543 /* TextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1879BB2ACDFA750091B543 /* TextParser.swift */; };
+		ED50DD942AD39C64007477D3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ED50DD932AD39C64007477D3 /* README.md */; };
 		EDC95F8F2ACFB19A009BAB28 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC95F8E2ACFB19A009BAB28 /* Constants.swift */; };
 		EDC95F922ACFB4AE009BAB28 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = EDC95F912ACFB4AE009BAB28 /* SDWebImage */; };
 		EDC95F942AD08E89009BAB28 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC95F932AD08E89009BAB28 /* NetworkManager.swift */; };
@@ -58,6 +59,7 @@
 		ED1879B72ACDED2E0091B543 /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
 		ED1879B92ACDFA490091B543 /* WordsCountingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsCountingService.swift; sourceTree = "<group>"; };
 		ED1879BB2ACDFA750091B543 /* TextParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextParser.swift; sourceTree = "<group>"; };
+		ED50DD932AD39C64007477D3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EDC95F8E2ACFB19A009BAB28 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		EDC95F932AD08E89009BAB28 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		EDC95F952AD0B67B009BAB28 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		ED18796D2ACDDE530091B543 = {
 			isa = PBXGroup;
 			children = (
+				ED50DD932AD39C64007477D3 /* README.md */,
 				ED1879782ACDDE530091B543 /* TeladocTest */,
 				ED1879772ACDDE530091B543 /* Products */,
 			);
@@ -305,6 +308,7 @@
 				ED1879962ACDE5630091B543 /* Romeo-and-Juliet.txt in Resources */,
 				ED1879A92ACDEA3F0091B543 /* WordTableViewCell.xib in Resources */,
 				ED1879AC2ACDEAF50091B543 /* AlbumTableViewCell.xib in Resources */,
+				ED50DD942AD39C64007477D3 /* README.md in Resources */,
 				ED1879A12ACDE7180091B543 /* WordTableViewController.xib in Resources */,
 				ED1879902ACDDF100091B543 /* StartViewController.xib in Resources */,
 			);
